@@ -34,7 +34,12 @@ captures/
 
 # Intellij
 *.iml
-.idea/workspace.xml
+Book2Action/.idea/workspace.xml
+Book2Action/.idea/misc.xml
+Book2Action/.idea/modules.xml
+Book2Action/.idea/gradle.xml
+
+*.swp
 
 # Keystore files
 *.jks
