@@ -8,9 +8,25 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="book2action.com.book2action.SelectInterestsActivity"
     android:orientation="vertical">
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
+
+    <TextView
+        android:text="Choose areas that you are interested in:"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+    />
+
+    <android.support.v7.widget.RecyclerView
         android:layout_height="match_parent"
-        android:id="@+id/fragment_host_layout"></LinearLayout>
+        android:layout_width="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:text="Make Me Better!"
+        android:id="@+id/buttonMakeMeBetter"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="makeMeBetterButtonClick" />
+
+
 </LinearLayout>
